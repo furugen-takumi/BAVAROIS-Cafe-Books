@@ -1,0 +1,201 @@
+.hamburger-menu {
+    display: flex;
+}
+
+.hamburger-menu div {
+    width: 5px;
+    height: 5px;
+    background-color: #4b4b4b;
+    margin: 0 2px;
+    border-radius: 100px;
+    /* radiusで丸みをつける */
+}
+
+.hamburger .borders {
+    padding-top: 20px;
+    padding-left: 11px;
+}
+
+.hamburger {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #dddddd;
+    border-radius: 50%;
+    /* ボーダーにradiusで丸みをつける */
+    transition: .5s;
+    /* アニメーションの時間を0.5秒に指定 */
+    opacity: 1;
+    /* 透明度を指定 */
+    background: #ffffff;
+}
+
+.hamburger:hover {
+    opacity: 0.5;
+    /* 透明度を指定 */
+}
+
+.hamburger+.sidenavs:target {
+    overflow-x: hidden;
+    /* ボックスからはみ出る箇所をそのまま表示 */
+    width: 100%;
+    /* サイドメニューの幅 */
+    display: block;
+}
+
+.sidenavs:target {
+    overflow-x: hidden;
+    /* ボックスからはみ出る箇所を隠す */
+    width: 0;
+}
+
+/* ハンバーガーメニュー表示時 */
+.sidenavs {
+    overflow: hidden;
+    height: 100px;
+    width: 0;
+    position: fixed;
+    /* 画像の配置を指定 */
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #dddddd;
+    overflow-x: hidden;
+    /* 横スクロールを無効にする */
+    transition: 0.5s;
+    /* スライド時にかかる時間を0.5秒に指定 */
+}
+
+/* ハンバーガーメニュー表示時のリンク */
+.sidenavs a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.5s;
+    /* スライド時にかかる時間を0.5秒に指定 */
+    font-weight: bold;
+}
+
+/* マウスオーバー後のリンク */
+.sidenavs a:hover {
+    color: white;
+}
+
+.sidebar-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-btn a {
+    padding: 8px;
+    border-radius: 10px;
+    /* ボーダーにradiusで丸みをつける */
+    transform: translateY(0px);
+    /* Y軸の移動距離を指定 */
+}
+
+.sidebar-btn a:hover {
+    color: white;
+    border: #ffffff;
+    transform: translateY(-5px);
+    /* Y軸の移動距離を指定 */
+}
+
+.sidenavs p {
+    text-align: center;
+    margin: 30px 20px;
+    width: 250px;
+    border: 1px solid #333333;
+    border-radius: 20px;
+    /* ボーダーにradiusで丸みをつける */
+}
+
+/* クローズボタン */
+.sidenavs .close-btn {
+    position: absolute;
+    /* 親要素との絶対位置を指定 */
+    top: 0;
+    right: 0px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 360px) {
+
+    .hamburger+.sidenavs:target {
+        overflow-x: hidden;
+        width: 360px;
+        display: block;
+    }
+
+    .sidenavs:target {
+        overflow-x: hidden;
+        width: 0;
+    }
+
+    .sidenavs {
+        overflow: hidden;
+        height: 330px;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #dddddd;
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+
+    .sidenavs a {
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.5s;
+        font-weight: bold;
+    }
+
+    .sidebar-btn {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sidebar-btn a {
+        padding: 8px;
+        border-radius: 10px;
+        transform: translateY(0px);
+    }
+
+
+    .sidenavs p {
+        text-align: center;
+        margin: 30px 0 0 50px;
+        width: 250px;
+        border: 1px solid #333333;
+    }
+
+    .sidenavs .close-btn {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 36px;
+        margin-left: 0;
+    }
+
+
+
+
+
+
+
+
+
+}

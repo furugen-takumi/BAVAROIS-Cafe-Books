@@ -1,0 +1,23 @@
+// h2 見出し //
+@mixin headline() {
+  margin: 20px 0 64px 170px;
+  font-size: 60px;
+  font-family: 'Abril Fatface', cursive;
+  line-height: 40px;
+
+  span {
+    padding-left: 20px;
+    font-size: 25px;
+  }
+}
+
+// NEWS img設定　※url()のみ追加設定 //
+@mixin lesson-img() {
+  border-radius: 20px 20px 0 0;
+  margin: 0 auto;
+  width: 250px;
+  height: 180px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

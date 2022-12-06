@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_29" data-name="長方形 29" width="50" height="50" transform="translate(531 7709)" fill="#1877f2"/>
+    </clipPath>
+  </defs>
+  <g id="マスクグループ_4" data-name="マスクグループ 4" transform="translate(-531 -7709)" clip-path="url(#clip-path)">
+    <path id="facebook-icon" d="M50.806,25.806A25,25,0,1,0,21.9,50.5V33.033H15.549V25.806H21.9V20.3c0-6.265,3.73-9.726,9.443-9.726a38.474,38.474,0,0,1,5.6.488V17.21H33.786c-3.1,0-4.074,1.927-4.074,3.9v4.693h6.933l-1.109,7.227H29.713V50.5A25.009,25.009,0,0,0,50.806,25.806Z" transform="translate(530.194 7708.345)" fill="#1877f2"/>
+  </g>
+</svg>

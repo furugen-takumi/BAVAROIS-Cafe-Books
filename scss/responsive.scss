@@ -1,0 +1,323 @@
+@media screen and (max-width: 360px) {
+
+
+    .page {
+        background-attachment: fixed;
+        background-image: url(../images/inside-of-shop2.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .only-mobile {
+        display: inline;
+    }
+
+    .top-nav {
+
+        img {
+            width: 90%;
+            padding-left: 70px;
+        }
+
+        .gnav ul li {
+            display: none;
+        }
+
+        .gnav {
+            margin: -45px -25px 0 0;
+        }
+    }
+
+    //　メイン //
+    main {
+        #top {
+            height: 650px;
+            background-image: url(../images/eyecatch-360.png);
+            margin-bottom: 70px;
+        }
+
+        #news {
+            .news-wrapper {
+                width: 340px;
+                padding: 0 10px 0 10px;
+
+
+                h2 {
+                    margin: 0 0 20px 80px;
+                }
+
+                .lesson-content {
+                    width: 340px;
+                    margin-bottom: 20px;
+
+                    ul {
+                        display: block;
+
+                        li {
+                            width: 340px;
+                            height: 360px;
+                            margin: 0 10px 10px -10px;
+
+                            .category {
+                                font-size: 15px;
+                                padding: 4px 5px;
+                                margin: 20px 0 0 190px;
+                                width: 130px;
+                            }
+
+                            .category-icon {
+                                padding: 10px 0;
+
+                                img {
+                                    width: 30%;
+                                }
+                            }
+
+                            time,
+                            p {
+                                font-size: 15px;
+                                padding-left: 10px
+                            }
+
+                            .image1 {
+                                background-position: 30% 25%;
+                                width: 340px;
+                                height: 220px;
+                            }
+
+                            .image2 {
+                                width: 340px;
+                                height: 220px;
+                            }
+
+                            .image3 {
+                                width: 340px;
+                                height: 220px;
+                            }
+
+                            .image4 {
+                                background-position: 0 20%;
+                                background-size: 140%;
+                                width: 340px;
+                                height: 220px;
+                            }
+                        }
+                    }
+                }
+
+                a:nth-child(3) {
+                    margin: 0 0 30px 90px;
+                    color: #ffffff;
+                    background-color: #7B68EE;
+                }
+            }
+        }
+
+        // コンセプト //    
+        #concept {
+            height: 950px;
+            padding-top: 70px;
+            background-image: url(../images/white-path-360.png);
+            margin-bottom: 70px;
+
+            .concept-container {
+                width: 360px;
+                padding: 0 10px 0 10px;
+
+                h2 {
+                    width: 340px;
+                    margin: 0 0 20px 0;
+                }
+
+                .concept-wrapper {
+                    width: 340px;
+                    display: block;
+
+                    img {
+                        margin: 0 0 20px 0;
+                        width: 340px;
+                    }
+
+                    .concept-txt {
+                        width: 340px;
+                        margin: 0;
+
+                        p {
+                            margin-left: 0px;
+
+                            span {
+                                padding-left: 140px;
+                            }
+                        }
+
+                        text {
+                            margin-left: 20px;
+                            display: block;
+                        }
+
+                        div {
+                            border: initial;
+                            color: #ffffff;
+                            background-color: #7B68EE;
+                        }
+                    }
+                }
+            }
+        }
+
+
+        // メニュー //    
+        #menu {
+            .menu-wrapper {
+                width: 360px;
+            }
+
+            h2 {
+                margin: 0 0 30px 100px;
+            }
+
+            .menu-outer {
+                width: 340px;
+                margin: 0 auto;
+                background-size: 20%;
+
+                img {
+                    width: 320px;
+                    height: 130px;
+                    margin-bottom: 30px;
+                }
+
+                .menu-display {
+                    width: 340px;
+                    margin-bottom: 50px;
+
+                    p {
+                        display: inline;
+                    }
+
+                    .one-dish {
+                        padding: 0 9px 0 9px;
+                        font-size: 15px;
+                        align-items: flex-end;
+
+                        p {
+                            text-align: left;
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+            }
+
+            .menu-display:last-child {
+                margin-bottom: 0;
+            }
+
+            h3 {
+                padding: 20px 0 30px 0;
+                font-size: 30px;
+                text-align: center;
+
+                span {
+                    font-size: 20px;
+                }
+            }
+
+            img {
+                border-radius: 20px;
+                border: 1px solid #333333;
+                width: 910px;
+                height: 300px;
+            }
+        }
+
+        // アクセス //    
+        #access {
+            background-image: url(../images/access-white-img-360.png);
+
+            .access-wrapper {
+                width: 360px;
+
+                h2 {
+                    display: inline-block;
+                    text-align: center;
+                    padding: 0 0 0 70px;
+                    margin: 0;
+
+                    span {
+                        padding-left: 50px;
+                    }
+                }
+
+                .access-inner {
+                    width: 360px;
+                    margin-top: 0;
+                    display: block;
+
+                    img {
+                        width: 340px;
+                        margin: 0 0 50px 10px;
+                    }
+
+                    .access-txt {
+                        padding: 0 10px 0 10px;
+                    }
+                }
+
+                .text {
+                    padding: 20px 0 25px 0;
+                    width: 340px;
+                    height: 190px;
+                    margin-bottom: 60px;
+                }
+            }
+        }
+
+        iframe {
+            width: 360px;
+            height: 215px;
+        }
+    }
+
+    // ヘッダー //
+    footer {
+        .footer-wrapper {
+            width: 360px;
+
+            h1 {
+                padding: 48px 0 50px 40px;
+                margin-left: -20px;
+            }
+
+            .icon-contents {
+                width: 267px;
+                display: flex;
+                margin-bottom: 26px;
+                margin-left: 40px;
+
+                figure {
+                    display: block;
+
+                    .fa-brands {
+                        padding-right: 22px;
+                        font-size: 50px;
+                    }
+
+                    p {
+                        display: none;
+                    }
+                }
+            }
+
+            p {
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+
+
+
+
+}
